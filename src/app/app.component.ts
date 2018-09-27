@@ -9,7 +9,9 @@ import {trigger,state,style,transition,animate,keyframes} from '@angular/animati
   <p [@myAwesomeAnimation] = 'state' (click) = "animateMe()">I will animate</p>
   <h2 [ngClass] = "messages" >Multiple class binding using ngClass Directive</h2>
 
-<h2> Hi , I am rekha</h2>
+  <h2> Hi , I am rekha</h2>
+  <h1>Go</h1>
+  <p>Hello</p>
   `,
   styles:[`
  p{
